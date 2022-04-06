@@ -50,6 +50,7 @@ RUN \
          lsb-base \
          xdg-utils \
          libcurl4 \
+         iproute2 \
          curl && \
          curl -O http://apt-repo:8080/yandex-browser.deb && \
          apt-get -y purge curl && \
